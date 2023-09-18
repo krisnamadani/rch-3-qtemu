@@ -1,0 +1,12 @@
+{
+  "name": "qtemu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  }
+}
